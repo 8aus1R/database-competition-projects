@@ -1,0 +1,108 @@
+# 编译产物和构建文件
+build/
+test_build/
+rmdb_client/build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+
+# 编译器生成的文件
+*.gch
+*.pch
+*.gcno
+*.gcda
+*.gcov
+
+# 临时文件和编辑器文件
+*~
+*.swp
+*.swo
+*#
+.#*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+*.log.*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 测试输出和覆盖率报告
+coverage/
+*.gcov
+*.info
+
+# 依赖库的构建文件（保留源码但忽略构建产物）
+deps/*/build/
+deps/*/CMakeFiles/
+deps/*/CMakeCache.txt
+deps/*/cmake_install.cmake
+deps/*/Makefile
+deps/*/*.o
+deps/*/*.a
+deps/*/*.so
+deps/*/*.dylib
+
+# 自动生成的文件
+lex.yy.c
+y.tab.c
+y.tab.h
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 网络和缓存文件
+.cache/
+*.cache
+
+# 文档和图片文件（可选，根据需要调整）
+# *.pdf
+# *.jpg
+# *.png
+# *.gif
+# *.bmp
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 其他二进制文件
+*.bin
+*.dat
+*.data 

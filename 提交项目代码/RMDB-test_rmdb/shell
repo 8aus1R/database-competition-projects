@@ -1,0 +1,7 @@
+# shell
+git init
+git add .
+git commit -m "重构部分"
+git branch -d test_rmdb
+git branch test_rmdb
+git push tbl test_rmdb -f

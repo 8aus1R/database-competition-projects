@@ -1,0 +1,257 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="第 1 页" id="o8nKbVLfp4nCx3fwrZJn">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-1" target="-2L4ZpCliCeFY_0D6ggQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-1" value="parser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-2" target="-2L4ZpCliCeFY_0D6ggQ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-2" value="yacc.y" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" target="-2L4ZpCliCeFY_0D6ggQ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="412.5" y="540" />
+              <mxPoint x="412.5" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-15" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;tableList&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2103" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" target="-2L4ZpCliCeFY_0D6ggQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542.5" y="540" />
+              <mxPoint x="542.5" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-16" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;optWhereClause&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0564" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-4" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(0, 40, 19));&quot;&gt;select &lt;/font&gt;&lt;/span&gt;selector &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;from &lt;/font&gt;tabList&amp;nbsp;optWhereClause opt_group_clause opt_having_conds opt_order_clause&amp;nbsp;opt_limit" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="450" width="685" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-6" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-6" value="支持colList类型：&lt;div&gt;其中colList的结构需要支持列，列的别名，多个列的使用，&#39;*&#39;，聚合函数。&lt;/div&gt;&lt;div&gt;&lt;br&gt;具体用法可以再借助一个col结构，tabList实现连接*和多个col。col实现列名，别名以及聚合函数。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-8" value="需支持表名，表的别名，表的连接（join类型的实现）。&lt;br&gt;具体方案：对于tabList可以直接实现表名，表的别名以及多表连接操作。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;再借助joinList实现多表连接操作&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="352.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-10" value="支持where条件的处理。&lt;br&gt;具体方案：首先实现where whereClause以及空的实现&lt;br&gt;。&lt;br&gt;对于whereClause需要实现多个condition的实现。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="482.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.087;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" target="-2L4ZpCliCeFY_0D6ggQ-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522.5" y="590" as="sourcePoint" />
+            <mxPoint x="572.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-14" value="selector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1556" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-17" value="支持group by条件的处理。&lt;div&gt;具体方案：首先实现group by group_clause以及空。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对于group_clause需要支持多个col类型。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="-2L4ZpCliCeFY_0D6ggQ-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="672.5" y="512" as="sourcePoint" />
+            <mxPoint x="572.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-23" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;opt_group_clause&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.1693" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.828;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="782.5" y="625" as="sourcePoint" />
+            <mxPoint x="787.5" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-27" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;opt_having_conds&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.2354" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-26" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-26" value="支持having条件的处理。&lt;div&gt;具体方案：首先实现having having_conds以及空。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对于having_conds需要支持多个condtion类型。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-28" value="支持order by条件的处理。&lt;div&gt;具体方案：首先实现order by order_clause以及空。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对于order_clause需要支持多个col 以及排序类型。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="882.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.943;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.176;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" target="-2L4ZpCliCeFY_0D6ggQ-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975" y="550" as="sourcePoint" />
+            <mxPoint x="1025" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-30" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;opt_order_clause&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-2L4ZpCliCeFY_0D6ggQ-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.2266" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-31" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;opt_limit&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="972.5" y="535" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-32" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-32" value="支持limit的语法，后面值可以接值，表示选出表的行数。" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1022.5" y="575" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.392;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-4" target="-2L4ZpCliCeFY_0D6ggQ-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1012.5" y="520" as="sourcePoint" />
+            <mxPoint x="1062.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-34" target="-2L4ZpCliCeFY_0D6ggQ-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-34" value="最终形成select的构造函数（SelectStmt），一共支持9个参数：&lt;div&gt;SelectStem(cols, table, tab_aliases_, jointree_,conds, group by, having_conds_, order, limit )&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="432.5" y="860" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.129;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-8" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.283;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-10" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672.5" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.849;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-28" target="-2L4ZpCliCeFY_0D6ggQ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-43" target="-2L4ZpCliCeFY_0D6ggQ-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-43" value="紧接着进行语义分析和重写，生成query计划。这里我们就需要去完善query计划" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="505" y="1040" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-46" target="-2L4ZpCliCeFY_0D6ggQ-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-46" value="query的结构：&lt;div&gt;parse，// 语法树&lt;br&gt;&lt;div&gt;conds，// where条件&lt;/div&gt;&lt;/div&gt;&lt;div&gt;cols，// 投影列&lt;/div&gt;&lt;div&gt;tables，// 表名&lt;/div&gt;&lt;div&gt;set_clauses，// update中set的值&lt;/div&gt;&lt;div&gt;values，// insert中values的值&lt;/div&gt;&lt;div&gt;groupby，// group by中的字段&lt;/div&gt;&lt;div&gt;having_conds，// having条件&lt;/div&gt;&lt;div&gt;jointree，// join条件&lt;/div&gt;&lt;div&gt;sub_query。// 子查询结果&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="527.5" y="1159" width="200" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-48" target="-2L4ZpCliCeFY_0D6ggQ-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-48" target="-2L4ZpCliCeFY_0D6ggQ-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-48" value="查询优化并生成查询计划树plan，我们分析一下plan是如何进行构建的" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="567.5" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-50" target="-2L4ZpCliCeFY_0D6ggQ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-50" value="DMLPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan，// 子计划&lt;/div&gt;&lt;div&gt;tab_name，// 表名&lt;/div&gt;&lt;div&gt;values，// 插入的值&lt;/div&gt;&lt;div&gt;conds，// where条件&lt;/div&gt;&lt;div&gt;set_clauses，// set条件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="1530" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-51" value="DDLPlan的结构：&lt;div&gt;tag，// 计划标签&lt;div&gt;tab_name，// 表名&lt;/div&gt;&lt;div&gt;col_names，// 列名&lt;/div&gt;&lt;div&gt;cols。// 列定义属性&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="252.5" y="1540" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-52" value="OtherPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;tab_name_。// 表名&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="432.5" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-54" target="-2L4ZpCliCeFY_0D6ggQ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-54" value="AggregationPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan，// 子计划&lt;/div&gt;&lt;div&gt;sel_cols，// 投影选出来的列&lt;/div&gt;&lt;div&gt;agg_types，// 所选聚合函数的类型。&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="587.5" y="1990" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-55" target="-2L4ZpCliCeFY_0D6ggQ-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-55" value="FilterPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan,，// 子计划&lt;/div&gt;&lt;div&gt;conds，// 过滤条件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.5" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-56" target="-2L4ZpCliCeFY_0D6ggQ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-56" target="PaskCj6fLY2irZUrDUyE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-56" value="JoinPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;left，// 左表子计划&lt;/div&gt;&lt;div&gt;right，// 右表子计划&lt;/div&gt;&lt;div&gt;conds，// 此时左右表的连接条件&lt;/div&gt;&lt;div&gt;type，// 左表和右表的连接条件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="607.5" y="2370" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-58" value="ScanPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;sm_manager，// 系统管理器，负责元数据管理&lt;/div&gt;&lt;div&gt;tab_name，// 表名&lt;/div&gt;&lt;div&gt;conds，// where条件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.5" y="2730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-59" value="ProjectionPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan，// 子计划&lt;/div&gt;&lt;div&gt;sel_cols，// 投影列&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="622.5" y="1690" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-60" target="-2L4ZpCliCeFY_0D6ggQ-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-60" value="GroupPlan的结构：&lt;div&gt;&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan，// 子计划&lt;/div&gt;&lt;div&gt;sel_cols，// 投影选出来的列&lt;/div&gt;&lt;/div&gt;&lt;div&gt;group_cols，// 分组选出来的列&lt;/div&gt;&lt;div&gt;having_conds，// having的筛选条件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="602.5" y="2170" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-61" target="-2L4ZpCliCeFY_0D6ggQ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-61" value="SortPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan，// 子计划&lt;/div&gt;&lt;div&gt;sel_cols，// 需要排序的字段&lt;/div&gt;&lt;div&gt;is_desc，// 判断每一个选择条件是升序还是降序&lt;/div&gt;&lt;div&gt;limit，// 限制返回的行数&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="567.5" y="1800" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-2L4ZpCliCeFY_0D6ggQ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.406;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-48" target="-2L4ZpCliCeFY_0D6ggQ-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-2L4ZpCliCeFY_0D6ggQ-59" target="-2L4ZpCliCeFY_0D6ggQ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PaskCj6fLY2irZUrDUyE-8" target="PaskCj6fLY2irZUrDUyE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-8" value="FilterPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;subplan,，// 子计划&lt;/div&gt;&lt;div&gt;conds，// 过滤条件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-12" value="ScanPlan的结构：&lt;div&gt;tag，// 计划标签&lt;/div&gt;&lt;div&gt;sm_manager，// 系统管理器，负责元数据管理&lt;/div&gt;&lt;div&gt;tab_name，// 表名&lt;/div&gt;&lt;div&gt;conds，// where条件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="2730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-16" value="analyze.h的结构：&lt;div&gt;sm_manager_，// 系统管理器，负责元数据的管理&lt;/div&gt;&lt;div&gt;do_analyze，// 语法分析和重写&lt;/div&gt;&lt;div&gt;check_column，// 检查是否存在target这个列，并进行列名补全&lt;/div&gt;&lt;div&gt;get_all_cols，// 得到所有表中的列并放入到get_all_cols中&lt;/div&gt;&lt;div&gt;get_clause，// 将语法树的where条件放入到query中的where条件中去&lt;/div&gt;&lt;div&gt;set_clause，// 将语法树中的set条件加入到query中的set条件中去&lt;/div&gt;&lt;div&gt;check_clause，// 检查所有的where条件是否合法&lt;/div&gt;&lt;div&gt;check_col_group_and_aggr，// 检查group by和select中的列是否符合规范&lt;/div&gt;&lt;div&gt;check_conds_with_aggregate，//&amp;nbsp;检查where条件中是否有聚合函数&lt;/div&gt;&lt;div&gt;check_having_conds，//&amp;nbsp;检查having条件中是否有不是聚合函数也不是group by的列&lt;/div&gt;&lt;div&gt;check_group，// 检查group中选择的列是否合法&lt;/div&gt;&lt;div&gt;check_without_group，//&amp;nbsp;检测group by不存在时，是否有having条件&lt;/div&gt;&lt;div&gt;convert_sv_value，//&amp;nbsp;将ast中的值转化为Value类型&lt;/div&gt;&lt;div&gt;convert_sv_comp_op，//&amp;nbsp;将ast中的操作符转化为CompOp类型&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="945" width="460" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PaskCj6fLY2irZUrDUyE-18" value="planner.h的结构：&lt;div&gt;do_planner，//&amp;nbsp;生成DDL语句和DML语句的查询执行计划&lt;/div&gt;&lt;div&gt;logical_optimization，//&amp;nbsp;实现逻辑优化规则&lt;/div&gt;&lt;div&gt;physical_optimization，// 实现物理优化规则&lt;/div&gt;&lt;div&gt;make_one_rel，// 生成连接条件计划&lt;/div&gt;&lt;div&gt;generate_aggregate_plan，// 生成聚合计划&lt;/div&gt;&lt;div&gt;generate_sort_plan，// 生成排序计划&lt;/div&gt;&lt;div&gt;generate_group_plan，// 生成分组计划&lt;/div&gt;&lt;div&gt;generate_select_plan，// 生成选择计划&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1390" width="460" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
